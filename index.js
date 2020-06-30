@@ -1,4 +1,4 @@
-const {hellome} = require('./test')
+const {hellome, secondtest} = require('./test')
 
 const express = require('express')
 const app = express()
@@ -13,5 +13,6 @@ function testme(value) {
 testme('HELLO!');
 testme('Cool Cakes!');
 console.log('hellometest', hellome())
+console.log('seccondtest', secondtest())
 
 app.listen(port, () => console.log(`Listening on http://127.0.0.1:${port}`))
