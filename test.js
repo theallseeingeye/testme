@@ -17,9 +17,14 @@ console.log(secondtest);
 console.log(secondtest);
 console.log(secondtest);
 
+function hell() {
+    return 'hell'
+}
+
 module.exports = {
     hellome,
-    secondtest
+    secondtest,
+    hell
 };
 
 
