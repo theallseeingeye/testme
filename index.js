@@ -10,6 +10,7 @@ function testme(value) {
     return value
 }
 
+// Okay this is a note
 testme('HELLO!');
 testme('Cool Cakes!');
 console.log('hellometest', hellome())
