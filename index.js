@@ -1,6 +1,8 @@
+const {hellome} = require('./test')
+
 const express = require('express')
 const app = express()
-const port = 8005
+const port = 8010
 
 app.get('/', (req, res) => res.send('Hello! you have found me on this linux machine!'))
 
@@ -10,5 +12,6 @@ function testme(value) {
 
 testme('HELLO!');
 testme('Cool Cakes!');
+console.log('hellometest', hellome())
 
-app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
+app.listen(port, () => console.log(`Listening on http://127.0.0.1:${port}`))
