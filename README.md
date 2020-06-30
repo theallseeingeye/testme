@@ -15,3 +15,6 @@ another quick change.
 Okay new line. I want to test.
 keep ME QQQQQ!!!
 I will adjust this merge conflict by KEEPING ME!
+
+
+This is the for other branch.
