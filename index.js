@@ -18,8 +18,4 @@ console.log('seccondtest', secondtest());
 console.log('This is an added feature');
 console.log('This is an added feature');
 console.log('This is an added feature');
-console.log('This is an added feature');
-console.log('This is an added feature');
-console.log('This is an added feature');
-console.log('This is an added feature');
 app.listen(port, () => console.log(`Listening on http://127.0.0.1:${port}`))
