@@ -9,5 +9,6 @@ function testme(value) {
 }
 
 testme('HELLO!');
+testme('Cool Cakes!');
 
 app.listen(port, () => console.log(`Listening on http://localhost:${port}`))
